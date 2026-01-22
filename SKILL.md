@@ -5,7 +5,7 @@ description: 搜索阮一峰科技爱好者周刊 GitHub issues 中的工具和�
 
 # 阮一峰周刊工具搜索
 
-搜索 [ruanyf/weekly](https://github.com/ruanyf/weekly/issues) 中社区提交的 1900+ 工具和资源。
+搜索 [ruanyf/weekly](https://github.com/ruanyf/weekly/issues) 中社区提交的数千个工具和资源。
 
 ## 工作流程
 
