@@ -1,0 +1,22 @@
+{
+  "name": "ruanyifeng-weekly-skill",
+  "owner": {
+    "name": "Jared Liu",
+    "email": "jaredliu.ai@gmail.com"
+  },
+  "metadata": {
+    "description": "Search tools from ruanyf/weekly GitHub issues.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "ruanyifeng-weekly-skill",
+      "description": "AI skill for searching tools and resources from ruanyf/weekly GitHub issues.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./"
+      ]
+    }
+  ]
+}
