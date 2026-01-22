@@ -1,3 +1,6 @@
+> **✨ Sponsored by [YouMind.com](https://youmind.com) — 你的第一款 Vibe Creating 工具**
+
+---
 # 阮一峰周刊工具搜索 Skill
 
 搜索[阮一峰科技爱好者周刊](https://github.com/ruanyf/weekly/issues)中社区提交的数千个工具和资源。
@@ -29,6 +32,14 @@ npx openskills i DophinL/ruanyifeng-weekly-skill
 直接告诉 Claude Code：
 
 > 帮我安装这个 skill: https://github.com/DophinL/ruanyifeng-weekly-skill
+
+### 方式四：Claude 桌面端手动安装
+
+1. 下载本仓库到本地
+2. 打开 Claude 桌面端，进入 **Settings（设置）**
+3. 切换到 **Capabilities** 标签页
+4. 点击 **Add Skill** 按钮
+5. 将 `ruanyifeng-weekly-skill.skill` 文件拖入安装
 
 ## 更新
 

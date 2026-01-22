@@ -12,7 +12,7 @@ from typing import Optional
 
 def search_issues(
     keyword: str,
-    limit: int = 5,
+    limit: int = 10,
     state: Optional[str] = None,
 ) -> dict:
     """
@@ -20,7 +20,7 @@ def search_issues(
 
     Args:
         keyword: Search keyword
-        limit: Maximum number of results (default: 5)
+        limit: Maximum number of results (default: 10)
         state: Filter by issue state ('open', 'closed', or None for all)
 
     Returns:
@@ -112,8 +112,8 @@ def main():
     parser.add_argument(
         "-n", "--limit",
         type=int,
-        default=5,
-        help="Maximum number of results (default: 5)",
+        default=10,
+        help="Maximum number of results (default: 10)",
     )
     parser.add_argument(
         "--state",
